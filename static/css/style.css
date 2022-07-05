@@ -1,0 +1,10 @@
+.labels {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 10px;;
+  }
+  .container{
+    margin-top:40px;
+  }

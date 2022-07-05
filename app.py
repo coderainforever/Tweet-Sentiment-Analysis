@@ -14,7 +14,7 @@ def Index():
 def Analyze():
     if req.method=="POST":
         API_URL = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
-        headers = {"Authorization": "Bearer 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"}
+        headers = {"Authorization": "Bearer hf_XXXXXXXXXXXXXX"}
 
         data = req.form["data"]
 

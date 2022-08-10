@@ -34,5 +34,5 @@ def Analyze():
         return render_template("index.html")
 
 if __name__ == '__main__':
-    app.debug=True # make it false during production
+    app.debug=False # make it false during production
     app.run()
